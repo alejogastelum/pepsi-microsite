@@ -4,9 +4,9 @@ module.exports = {
       require('tailwindcss'),
       require('postcss-nested'),
       require('autoprefixer'),
-      require('cssnano')({
-        preset: 'default',
-      }),
+      // require('cssnano')({
+      //   preset: 'default',
+      // }),
       require('@fullhuman/postcss-purgecss')({
           content: [
               'index.html',
