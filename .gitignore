@@ -1,0 +1,9 @@
+vendor
+dist
+.cache
+wp-content
+composer.lock
+node_modules
+package-lock.json
+license
+specs.txt

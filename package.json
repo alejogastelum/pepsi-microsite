@@ -1,0 +1,35 @@
+{
+  "name": "pepsi-microsite",
+  "version": "1.0.0",
+  "description": "Awesome microsite!",
+  "main": "index.html",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "postcss static/css/tailwind.css -o ./css/style.css",
+    "watch": "watch \"npm run build\" ./static/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gastelumstudio/pepsi-microsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gastelumstudio/pepsi-microsite/issues"
+  },
+  "homepage": "https://github.com/gastelumstudio/pepsi-microsite#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8.1.3",
+    "postcss-cli": "^8.0",
+    "postcss-import": "^13.0.0",
+    "postcss-nested": "^5.0.1",
+    "cssnano": "^4.1.10",
+    "tailwindcss": "^1.9.6",
+    "watch": "^1.0.2"
+  }
+}
